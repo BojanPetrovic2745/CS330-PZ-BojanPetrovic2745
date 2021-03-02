@@ -1,0 +1,59 @@
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView android:id="@+id/listJmbg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#304ffe"
+                android:textSize="14pt"
+                android:textAlignment="center"/>
+
+            <com.google.android.material.textview.MaterialTextView android:id="@+id/listIme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#304ffe"
+                android:textSize="14pt"
+                android:textAlignment="center"/>
+
+            <com.google.android.material.textview.MaterialTextView android:id="@+id/listPrezime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#304ffe"
+                android:textSize="14pt"
+                android:textAlignment="center"/>
+
+            <com.google.android.material.textview.MaterialTextView android:id="@+id/listSimptomi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#304ffe"
+                android:textSize="14pt"
+                android:textAlignment="center"/>
+
+            <com.google.android.material.textview.MaterialTextView android:id="@+id/listTerapija"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#304ffe"
+                android:textSize="14pt"
+                android:textAlignment="center"/>
+
+            <com.google.android.material.textview.MaterialTextView android:id="@+id/listIzlecen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#304ffe"
+                android:textSize="14pt"
+                android:textAlignment="center"/>
+
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+

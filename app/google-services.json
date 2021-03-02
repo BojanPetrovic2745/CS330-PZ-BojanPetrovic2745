@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "684594154246",
+    "firebase_url": "https://cs330-pz-bojanpetrovic2745.firebaseio.com",
+    "project_id": "cs330-pz-bojanpetrovic2745",
+    "storage_bucket": "cs330-pz-bojanpetrovic2745.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684594154246:android:a70235317b76abc580ac87",
+        "android_client_info": {
+          "package_name": "met.local.cs330.pz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684594154246-jasdaicqh9kimulplf0dlbfegjvh1usn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANlpnJuyXpep1SqFr0WsRHWwfSWksxzo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684594154246-jasdaicqh9kimulplf0dlbfegjvh1usn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

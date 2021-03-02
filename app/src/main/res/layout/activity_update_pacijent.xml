@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddPacijentActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:textColorHint="#304ffe"
+        android:labelFor="@+id/jmbg">
+
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/updateJmbg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:hint="jmbg"
+            android:textSize="14pt"
+            android:inputType="text"
+            android:textColor="#304ffe"
+            android:textAlignment="center" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:textColorHint="#304ffe"
+        android:labelFor="@+id/simptomi">
+
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/updateSimptomi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:hint="simptomi"
+            android:textSize="14pt"
+            android:inputType="text"
+            android:textColor="#304ffe"
+            android:textAlignment="center" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:textColorHint="#304ffe"
+        android:labelFor="@+id/terapija">
+
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/updateTerapija"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:hint="terapija"
+            android:textSize="14pt"
+            android:inputType="text"
+            android:textColor="#304ffe"
+            android:textAlignment="center" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:textColorHint="#304ffe"
+        android:labelFor="@+id/izlecen">
+
+        <com.google.android.material.textfield.TextInputEditText android:id="@+id/updateIzlecen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:hint="izlecen"
+            android:textSize="14pt"
+            android:inputType="text"
+            android:textColor="#304ffe"
+            android:textAlignment="center" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton android:id="@+id/updatePacijent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update Pacijent"
+        android:textSize="14pt"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textAlignment="center" />
+
+</LinearLayout>

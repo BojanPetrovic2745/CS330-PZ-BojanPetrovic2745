@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14pt"
+        android:textColor="#304ffe"
+        android:text="Najiskusniji lekar u smeni: Pera Peric"/>
+
+    <com.google.android.material.textview.MaterialTextView android:id="@+id/apoteka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14pt"
+        android:textColor="#304ffe"
+        android:text="Lekove nabavlja u Viva apoteci"
+        android:onClick="onClickApoteka"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:textColorHint="#304ffe"
+        android:labelFor="@+id/poruka">
+
+    <com.google.android.material.textfield.TextInputEditText android:id="@+id/poruka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:hint="poruka"
+        android:textSize="14pt"
+        android:inputType="text"
+        android:textColor="#304ffe"
+        android:textAlignment="center" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Posalji poruku Peri Pericu!"
+        android:onClick="onClick"/>
+
+    <com.google.android.material.textview.MaterialTextView android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:textColor="#304ffe"
+        android:text="Aplikaciju napravio: Bojan Petrovic 2745 -IT -III godina"/>
+
+   <androidx.appcompat.widget.AppCompatImageButton android:id="@+id/fakultet"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/metropolitan"
+       style="@style/Widget.AppCompat.Button.Borderless"
+       android:padding="50pt"
+       android:onClick="onClickFakultet"/>
+</LinearLayout>
